@@ -1,0 +1,101 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.11),rgba(0, 0, 0, 0.103)), url(https://live.staticflickr.com/2748/4016523113_4a4178632e_b.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid darkkhaki;
+	outline-color: #fff;
+	transition: 0.6s;
+	margin: 10px;
+	color: aquamarine;
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 180px;
+	height: auto;
+}
+.main{
+	max-width: 3000px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top : 20%;
+	left : 20%;
+
+}
+.title h1{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 70px;
+}
+.container{
+	position:absolute;
+	top:45%;
+	left:10%;
+	font-size: large;
+	color: #000;
+}
+.button{
+	position: absolute;
+	top: 83%;
+	left: 46%;
+}
+.btn1{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn1:hover{
+	background-color:#fff;
+	color: #000
+}
+.tentang{
+	position: absolute;
+	background-color: linear-gradient(rgba(0, 0, 0, 0.11),rgba(0, 0, 0, 0.103)),url(https://img.freepik.com/free-photo/overhead-shot-comfortable-workplace-with-notebook-white-desk-background_67155-3392.jpg?w=2000);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.tentang h2{
+	color: rgb(0, 0, 0);
+	font-size: 45px;
+	text-align: center;
+	top: 90%;
+}
+.tentang h1{
+	font-family: sans-serif;
+	color: transparent;
+	font-size: 30px;
+	top: 40%;
+}
+
+
